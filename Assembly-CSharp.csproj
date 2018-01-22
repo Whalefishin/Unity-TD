@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1D18115E-7AB7-2B9B-0091-14EA67C0770E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;GAME_FRAMEWORK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Adventurer\Adventurer.cs" />
+     <Compile Include="Assets\Scripts\Adventurer\Barbarian.cs" />
+     <Compile Include="Assets\Scripts\Adventurer\Bard.cs" />
+     <Compile Include="Assets\Scripts\Adventurer\Cleric.cs" />
+     <Compile Include="Assets\Scripts\Adventurer\Sorcerer.cs" />
+     <Compile Include="Assets\Scripts\Adventurer\Warlock.cs" />
+     <Compile Include="Assets\Scripts\Characters\Characters.cs" />
+     <Compile Include="Assets\Scripts\Characters\DemonLord.cs" />
+     <Compile Include="Assets\Scripts\Characters\Ghosty.cs" />
+     <Compile Include="Assets\Scripts\Managers\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\Game_Manager.cs" />
+     <Compile Include="Assets\Scripts\Managers\TileMap.cs" />
+     <Compile Include="Assets\Scripts\Misc\SpriteOutline.cs" />
+     <Compile Include="Assets\Scripts\Monster\AntiSlime.cs" />
+     <Compile Include="Assets\Scripts\Monster\Bat.cs" />
+     <Compile Include="Assets\Scripts\Monster\Monster.cs" />
+     <Compile Include="Assets\Scripts\Monster\Slime.cs" />
+     <Compile Include="Assets\Scripts\Tiles\ClickableTile.cs" />
+     <Compile Include="Assets\Scripts\Tiles\Gate\DirectionalGate.cs" />
+     <Compile Include="Assets\Scripts\Tiles\Gate\Gate.cs" />
+     <Compile Include="Assets\Scripts\Tiles\Gate\RandomGate.cs" />
+     <Compile Include="Assets\Scripts\Tiles\Node.cs" />
+     <Compile Include="Assets\Scripts\Tiles\Unit.cs" />
+     <Compile Include="Assets\Scripts\Types\MonsterType.cs" />
+     <Compile Include="Assets\Scripts\Types\TileType.cs" />
+     <Compile Include="Assets\Scripts\UI\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\UI\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\UI\GameOverUI.cs" />
+     <Compile Include="Assets\Scripts\UI\World_Canvas.cs" />
+     <Compile Include="Assets\Tools\2D Explosion Force\script\ExplosionForce2D.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\BoardManager.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\GizmosController.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\Loader.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\MovingObject.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\Player.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\_Complete-Game\Scripts\Wall.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Tools\2D Rogue\TutorialInfo\Scripts\TutorialInfo.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Examples\RigidBodyInterpolationSolution\FollowLight2d.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Scripts\2DLight\DynamicLight.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Scripts\Helpers\interface_touch.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Scripts\Helpers\interface_touch2.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Scripts\Helpers\TablaSenoCoseno.cs" />
+     <Compile Include="Assets\Tools\2DLightAsset\Scripts\rotate.cs" />
+     <Compile Include="Assets\Tools\2DTilezoneFiles\Scripts\AutoColliderGenerator.cs" />
+     <Compile Include="Assets\Tools\2DTilezoneFiles\Scripts\PixelPerfectCamera.cs" />
+     <Compile Include="Assets\Tools\2DTilezoneFiles\Scripts\TileInfo.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\Demo\MaterialSwitcher.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\Demo\OutlineAnimation.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\Demo\Rotate.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\Demo\Toggle.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\LinkedSet.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\Outline.cs" />
+     <Compile Include="Assets\Tools\OutlineEffect\OutlineEffect.cs" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\LICENSE.txt" />
+     <None Include="Assets\Material\Sprites-Outline.shader" />
+     <None Include="Assets\Tools\2DTilezoneFiles\CollisionData\roguelikeDungeon_collision_data.cd" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\utility\README.txt" />
+     <None Include="Assets\Tools\OutlineEffect\Resources\OutlineShader.shader" />
+     <None Include="Assets\Tools\2DLightAsset\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
+     <None Include="Assets\Tools\OutlineEffect\Resources\OutlineBufferShader.shader" />
+     <None Include="Assets\Tools\2DTilezoneFiles\CollisionData\dirt-tiles_collision_data.cd" />
+     <None Include="Assets\Tools\2D Rogue\TutorialInfo\Fonts\LICENSE.txt" />
+     <None Include="Assets\Tools\2DLightAsset\Shaders\NoTexture.shader" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\utility\Raw List.txt" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\dc-mon\animals\animals.txt" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\utility\Filtered List.txt" />
+     <None Include="Assets\Tools\2D Rogue\Fonts\OFL.txt" />
+     <None Include="Assets\Sprites\ActRPGsprites\readme.txt" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\README.txt" />
+     <None Include="Assets\Tools\2DLightAsset\Shaders\Gradient-ZFighting.shader" />
+     <None Include="Assets\Sprites\crawl-tiles Oct-5-2010\utility\Deleted List.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

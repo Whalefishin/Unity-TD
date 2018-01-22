@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower Defense + Reverse D&D", "Assembly-CSharp.csproj", "{1D18115E-7AB7-2B9B-0091-14EA67C0770E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower Defense + Reverse D&D", "Assembly-CSharp-Editor.csproj", "{CCC6A2E9-1431-DD23-372A-4BA7EF748213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D18115E-7AB7-2B9B-0091-14EA67C0770E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D18115E-7AB7-2B9B-0091-14EA67C0770E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D18115E-7AB7-2B9B-0091-14EA67C0770E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D18115E-7AB7-2B9B-0091-14EA67C0770E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC6A2E9-1431-DD23-372A-4BA7EF748213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC6A2E9-1431-DD23-372A-4BA7EF748213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC6A2E9-1431-DD23-372A-4BA7EF748213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC6A2E9-1431-DD23-372A-4BA7EF748213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
