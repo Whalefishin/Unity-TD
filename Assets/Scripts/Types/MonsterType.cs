@@ -7,4 +7,6 @@ public class MonsterType{
 
 	public string name;
 	public GameObject monsterPrefab;
+	public bool isSpawnable;
+	public int min_level;
 }

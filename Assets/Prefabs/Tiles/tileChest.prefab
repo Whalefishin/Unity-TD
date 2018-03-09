@@ -22,7 +22,8 @@ GameObject:
   - component: {fileID: 212204842104052816}
   - component: {fileID: 114263990312714292}
   - component: {fileID: 61343852635629054}
-  m_Layer: 0
+  - component: {fileID: 114219845023697136}
+  m_Layer: 18
   m_Name: tileChest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +52,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -67,7 +68,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114263990312714292
+--- !u!114 &114219845023697136
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,11 +76,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939613695423656}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d744344d234751d4bacfc1752507ad92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileX: 0
+  tileY: 0
+  treasure_count: 30
+--- !u!114 &114263990312714292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939613695423656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a15b72288dcaa8146bba583bf18da7fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tileX: 0
   tileY: 0
+  tileIndex: 0
 --- !u!212 &212204842104052816
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -13,7 +13,7 @@ public class Ghosty : Characters {
 	
 	// Update is called once per frame
 	void Update () {
-		base.Update ();
-		moveTowards (TileMap.instance.DemonLord.GetComponent<DemonLord>().previousPosition);
+		//base.Update ();
+		//moveTowards (TileMap.instance.DemonLord.GetComponent<DemonLord>().previousPosition);
 	}
 }

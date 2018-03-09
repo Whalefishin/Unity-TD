@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Level_0.unity
+- path: Assets/Scenes/Level_0.unity
   isLoaded: 1
   isActive: 1
 - path: Assets/Scenes/Level_1.unity
@@ -8,9 +8,18 @@ sceneSetups:
 - path: Assets/Scenes/Level_2.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Scenes/Level_3_New.unity
+- path: Assets/Scenes/Level_3.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Level_4.unity
-  isLoaded: 1
+- path: Assets/Scenes/Level_4.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Level_5.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Level_6.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Level_7.unity
+  isLoaded: 0
   isActive: 0

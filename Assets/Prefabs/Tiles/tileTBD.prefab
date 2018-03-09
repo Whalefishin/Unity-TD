@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212226231583354108}
   - component: {fileID: 114545605575456860}
   - component: {fileID: 61622276354932248}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: tileTBD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileX: 0
   tileY: 0
+  tileIndex: 0
 --- !u!212 &212226231583354108
 SpriteRenderer:
   m_ObjectHideFlags: 1

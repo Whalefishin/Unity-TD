@@ -5,9 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bat
-  - AntiSlime
   - Slime
   - Adventurer
+  - KuroSlime
+  - BigPumpkin
+  - Doggo
+  - KuroBat
+  - KuroSkull
+  - KuroSkeletonKnight
+  - SkeletonKnight
+  - Skull
+  - SmallPumpkin
+  - SmallPumpkinS
+  - DemonLord
   layers:
   - Default
   - TransparentFX
@@ -21,14 +31,14 @@ TagManager:
   - Demon Lord
   - Monster
   - Slimes
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pumpkin
+  - Bat
+  - Skull
+  - SkeletonKnight
+  - Scouting
+  - Arrow
+  - Tiles
+  - Chest
   - 
   - 
   - 

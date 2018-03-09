@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 224601449108405228}
   - component: {fileID: 222441869108843406}
   - component: {fileID: 114323963446267550}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 222939791935652418}
   - component: {fileID: 114070254569129234}
   - component: {fileID: 114609582940661606}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 224311500148342560}
   - component: {fileID: 222628078049097168}
   - component: {fileID: 114665155376972576}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 224319310456778576}
   - component: {fileID: 222965322089655008}
   - component: {fileID: 114432774936101950}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 222388468193632748}
   - component: {fileID: 114646138444451764}
   - component: {fileID: 114948984677819492}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 222276464372664470}
   - component: {fileID: 114455980117618608}
   - component: {fileID: 114916237787510064}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 223411802613880582}
   - component: {fileID: 114845938511450770}
   - component: {fileID: 114996076216461954}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: GateCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 224860197256874230}
   - component: {fileID: 222756653715806356}
   - component: {fileID: 114468809279004890}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 61818735430936440}
   - component: {fileID: 114083733040333244}
   - component: {fileID: 114967980682106922}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: tileGate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 222948714421300616}
   - component: {fileID: 114339453040166336}
   - component: {fileID: 114812065260415446}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,6 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e24dd5fe11d40ee96c65a520190edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileX: 0
+  tileY: 0
   GateCanvas: {fileID: 1443134585962466}
   Left: {fileID: 0}
   Right: {fileID: 0}
@@ -277,7 +279,6 @@ MonoBehaviour:
   allSubCanvas: []
   spawnLocations: []
   spawnTypes: []
-  last_spawn_times: []
   click_parity: 0
 --- !u!114 &114323963446267550
 MonoBehaviour:
@@ -688,6 +689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2238500a7eaff4055b4d2a9905fc1fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileX: 0
+  tileY: 0
   GateCanvas: {fileID: 1443134585962466}
   Left: {fileID: 0}
   Right: {fileID: 0}
@@ -700,7 +703,6 @@ MonoBehaviour:
   allSubCanvas: []
   spawnLocations: []
   spawnTypes: []
-  last_spawn_times: []
   click_parity: 0
 --- !u!114 &114996076216461954
 MonoBehaviour:

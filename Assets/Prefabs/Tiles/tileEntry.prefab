@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4751572186820536}
   - component: {fileID: 212718972919247068}
   - component: {fileID: 114541542499292294}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: tileEntry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileX: 0
   tileY: 0
+  tileIndex: 0
 --- !u!212 &212718972919247068
 SpriteRenderer:
   m_ObjectHideFlags: 1
